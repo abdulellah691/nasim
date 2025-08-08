@@ -1,14 +1,41 @@
-# Run and deploy your AI Studio app
+# تقنية النسيم - صيانة مكيفات
 
-This contains everything you need to run your app locally.
+موقع ويب متخصص في خدمات صيانة المكيفات
 
-## Run Locally
+## 🌐 الموقع المباشر
 
-**Prerequisites:**  Node.js
+**رابط الموقع:** [https://abdulellah691.github.io/nasim](https://abdulellah691.github.io/nasim)
 
+## 🚀 التشغيل المحلي
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+```bash
+# تثبيت التبعيات
+npm install
+
+# تشغيل خادم التطوير
+npm run dev
+
+# بناء المشروع للإنتاج
+npm run build
+
+# معاينة البناء
+npm run preview
+```
+
+## 📁 هيكل المشروع
+
+- `components/` - مكونات React
+- `App.tsx` - المكون الرئيسي
+- `vite.config.ts` - إعدادات Vite
+- `.github/workflows/` - إعدادات النشر التلقائي
+
+## 🔧 التقنيات المستخدمة
+
+- React 19
+- TypeScript
+- Vite
+- GitHub Pages
+
+## 📝 ملاحظات النشر
+
+الموقع يتم نشره تلقائياً على GitHub Pages عند كل تحديث في الفرع الرئيسي.
